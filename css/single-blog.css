@@ -1,0 +1,122 @@
+.step_progrss_bar {
+    background-color: var(--color-grey);
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.step_progrss_bar p {
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.step_progrss_bar a {
+    color: var(--color-deep-green);
+}
+
+.step_progrss_bar i {
+    font-size: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.single-blog .content {
+    margin-top: 60px;
+}
+
+.single-blog .banner_img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+.single-blog .content h6 {
+    margin-top: 15px;
+}
+
+.single-blog .content b {
+    letter-spacing: 0.5px;
+}
+
+.our-quick-links {
+    margin-top: 50px;
+    background-color: var(--color-grey);
+    display: grid;
+    padding: 20px 20px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+}
+
+.our-quick-links h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.our-quick-links p {
+    color: var(--color-deep-green);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.blog-section {
+    margin-bottom: 22px;
+}
+
+.blog-section h2 {
+    font-size: 2.1rem;
+    color: var(--color-deep-green);
+}
+
+.blog-section h4 {
+    font-size: 1.4rem;
+    color: var(--color-deep-green);
+    margin-top: 20px;
+}
+
+.blog-section .list-content li{
+    list-style: circle;
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+.blog-section li {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 22px;
+}
+
+.blog-section p {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 0px;
+}
+
+.small-banner {
+ background-color: var(--color-grey);
+ margin-bottom: 28px;
+ border-radius: 4px;
+}
+
+.small-banner h2 {
+    font-size: 1.2rem;
+    color: var(--color-deep-green);
+    padding: 25px 30px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+.sub-list li{
+
+    list-style: disc !important;
+    padding-left: 35px !important;
+
+}

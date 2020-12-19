@@ -1,0 +1,93 @@
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/shimla/img_one.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 125px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact h6 {
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact .box {
+    position: relative;
+}
+
+.contact .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.contact .icon i {
+    color: #000;
+}
+
+.contact .content h3 {
+    font-weight: 600;
+    color: #00bcd4;
+    font-size: 18px;
+    margin-bottom: 2px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact .content h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact .position-center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.contact ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.contact ul li i {
+    cursor: pointer;
+}
+
+.contact ul li .fa-facebook-square {
+    color: #3b5998;
+}
+
+.contact ul li .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

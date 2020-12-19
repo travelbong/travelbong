@@ -1,0 +1,40 @@
+.small-banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/shimla/img_two.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-banner-image h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.small-banner-image h6 {
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.about .profile-picture {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about span {
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}

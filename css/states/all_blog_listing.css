@@ -1,0 +1,51 @@
+/* .state-all-blog-listing .navbar{
+    height: 78px;
+    background: #000;
+    padding: 0.5rem 4rem;
+}
+
+.state-all-blog-listing .navbar .navbar-brand img{
+    width: 180px;
+}
+
+.state-all-blog-listing .navbar-nav .nav-item {
+    background-color: #fdb820;
+    border-radius: 25px;
+}
+
+.state-all-blog-listing .navbar-nav .nav-item .nav-link {
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.state-all-blog-listing .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+} */
+
+.state-all-blog-listing .listing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.state-all-blog-listing .listing .image-wrapper {
+    overflow: hidden;
+}
+
+.state-all-blog-listing .listing .image-wrapper img {
+    transition: all 1s ease;
+}
+
+.state-all-blog-listing .listing .card .card-img-top:hover {
+    transform: scale(1.3);
+}
+
+.state-all-blog-listing .listing h5 {
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.state-all-blog-listing .listing p {
+    color: var(--color-light-gray);
+    margin-bottom: 18px;
+}

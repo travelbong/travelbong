@@ -1,0 +1,69 @@
+footer {
+    background-color: var(--colo-sky-blue);
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer a {
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer .social_links a {
+    display: inline-block;
+}
+
+footer .social_links .fab {
+    padding: 20px;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-out;
+    background-color: #fff;
+    color: var(--colo-sky-blue);
+}
+
+footer .social_links .fab:hover {
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer .social_links .fa-facebook-f:hover {
+    background-color: var(--color-facebook-blue);
+}
+
+footer .social_links .fa-instagram:hover {
+    background-color: var(--color-instagram);
+}

@@ -1,0 +1,87 @@
+.my_nav {
+    height: 78px;
+    background: #000;
+    padding: 0.5rem 4rem;
+}
+
+.my_nav .navbar-brand img{
+    width: 180px;
+}
+
+.my_nav .navbar-nav .nav-item {
+    background-color: #fdb820;
+    border-radius: 25px;
+}
+
+.my_nav .navbar-nav .nav-item .nav-link {
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.my_nav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+.travel-bong-small-logo {
+    width: 52px !important;
+}
+
+/*********** reponsive start's ************/
+
+@media only screen and (max-width: 992px) { 
+
+    .my_nav .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) { 
+
+    .my_nav .navbar-nav .nav-item .nav-link {
+        padding: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 476px) { 
+
+    .my_nav {
+        padding: 0.5rem 2rem;
+    }
+
+    .my_nav .navbar-brand img {
+        width: 150px;
+    }
+
+    .my_nav .navbar-nav .nav-item .nav-link {
+        padding: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 380px) { 
+
+    .my_nav {
+        padding: 0.5rem 1rem;
+    }
+
+    .my_nav .navbar-brand img {
+        width: 140px;
+    }
+
+    .my_nav .navbar-nav .nav-item .nav-link {
+        padding: 10px 5px;
+    }
+
+}
+
+@media only screen and (max-width: 334px) { 
+
+    .my_nav .navbar-brand img {
+        width: 120px;
+    }
+
+}
+
+/*********** reponsive end's ************/

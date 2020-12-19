@@ -1,0 +1,27 @@
+.explore_btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    width: 220px;
+    text-transform: uppercase;
+    color: #000;
+    background-size: 200%;
+    transition: 0.6s;
+    background-image: linear-gradient(to left,#a6c1ee,#fbc2eb,#a6c1ee);
+}
+
+.explore_btn:hover {
+    background-position: right;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.explore_btn:active {
+    background-image: linear-gradient(to left,#a6c1ee,#fbc2eb,#a6c1ee) !important;
+    background-position: right;
+}
+
+.explore_sm_btn {
+    padding: 0.7rem 0.7rem;
+    width: 180px;
+}
