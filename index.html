@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Travel Bong </title>
+
+    <link rel="shortcut icon" type="image/jpg" href="assets/others/travel-bong-favicon.png"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="stylesheet" href="css/responsive/landing.css">
+
+</head>
+
+<body>
+
+    <div class="parent-container">
+    
+        <section class="banner_section">
+
+            <div class="container">
+
+                <header id="navbar">
+
+                    <div class="row">
+
+                        <div class="col-md-11 col-sm-10 col-9">
+                            <a href="#" class="logo position-relative"><img src="assets/others/travel-bong-logo.png"></a>
+                        </div>
+
+                        <div class="col-md-1 col-sm-2 col-3 vr-and-he-center">
+                            <a class="nav-icon" onclick="openNav()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <div id="my_sidenav" class="sidenav">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <h1>Explore</h1>
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <a href="states/himachal/index.html">
+                                        <div class="overflow-hidden">
+                                            <img class="card-img-top" src="assets/shimla/img_one.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text"> Himachal Pradesh </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <a href="#"></a>
+                                        <div class="overflow-hidden">
+                                            <img class="card-img-top" src="assets/coorg/mandalpatti.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text"> Karnataka </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <div class="overflow-hidden">
+                                        <img class="card-img-top" src="assets/delhi/red_fort.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"> Delhi </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <div class="overflow-hidden">
+                                        <img class="card-img-top" src="assets/balasore/balasore.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"> Odisha </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <div class="overflow-hidden">
+                                        <img class="card-img-top" src="assets/chennai/chennai_sea_beach.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"> Tamil Nadu </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+
+                                <div class="card">
+                                    <div class="overflow-hidden">
+                                        <img class="card-img-top" src="assets/dooars/dooars.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text"> Explore More </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <div class="img-gradient">
+                            <img class="d-block w-100" src="assets/shimla/img_one.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5> A walk through the hills - Shimla </h5>
+                            <p> Lorem Ipsum is simply dummy text </p>
+                            <a href="states/himachal/how-to-plan-a-trip-to-shimla/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="img-gradient">
+                            <img class="d-block w-100" src="assets/santiniketan/santiniketan.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5> Shantiniketan - the adobe of peace </h5>
+                            <p> Lorem Ipsum is simply dummy text </p>
+                            <a href="states/west_bengal/A weekend trip to Shantiniketan/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="img-gradient">
+                            <img class="d-block w-100" src="assets/coorg/mandalpatti.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5> Coorg - the scotland of india </h5>
+                            <p> Lorem Ipsum is simply dummy text </p>
+                            <a href="states/karnataka/step-by-step-guide-for-backpackers/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <div class="banner_content">
+
+                    <div class="banner_title" id="slider_show_title">
+
+                        <div class="active">
+                            <h2> A walk through <br>the hills - shimla </h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <a href="states/himachal/how-to-plan-a-trip-to-shimla/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                        <div>
+                            <h2> Shantiniketan - the adobe of peace </h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <a href="states/west_bengal/A weekend trip to Shantiniketan/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                        <div>
+                            <h2> Coorg - the scotland of india </h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <a href="states/karnataka/step-by-step-guide-for-backpackers/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                    </div>
+
+                    <div class="banner_img" id="slider_show">
+
+                        <img src="assets/shimla/img_one.jpg" alt="" class="active">
+                        
+                        <img src="assets/santiniketan/santiniketan.jpg" alt="">
+
+                        <img src="assets/coorg/mandalpatti.jpg" alt="">
+                        
+                    </div>
+
+                    <div class="icons">
+
+                        <ul class="controls">
+
+                            <li>
+                                <img src="assets/others/back.png" alt="" onclick="nextSlide();nextSlideText();" class="left-arrow">
+                            </li>
+
+                            <li>
+                                <img src="assets/others/right.png" alt="" onclick="prevSlide();prevSlideText();" class="right-arrow">
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="middle">
+                    <div class="mouse">
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section class="blogs">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-9 col-sm-12">
+                        
+                        <div class="blog_single">
+                            <div class="blog inner border-radious-4 shadow">
+                                <img src="./assets/shimla/img_one.jpg">
+                                <div class="blog_slide">
+                                    <h4> Explore Shimla <br> The queen of hills </h4>
+                                </div>
+                            </div>
+                            <h1>Trip to Shimla: Detailed day by day itinerary</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                                illum similique veniam tempore unde?</p>
+                            <a href="states/himachal/how-to-plan-a-trip-to-shimla/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                        <div class="blog_single">
+                            <div class="blog inner border-radious-4 shadow">
+                                <img src="./assets/coorg/mandalpatti.jpg">
+                                <div class="blog_slide">
+                                    <h4> Explore Coorg <br> The Scotland of India </h4>
+                                </div>
+                            </div>
+                            <h1> Explore Coorg: The Perfect step by step guide for backpackers </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                                illum similique veniam tempore unde?</p>
+                            <a href="states/karnataka/step-by-step-guide-for-backpackers/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                        <div class="blog_single">
+                            <div class="blog inner border-radious-4 shadow">
+                                <img src="./assets/mysore/mysore_palace.jpg">
+                                <div class="blog_slide">
+                                    <h4> Explore Mysore <br> The city of palaces </h4>
+                                </div>
+                            </div>
+                            <h1> How to plan a super budget trip to Mysore </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                                illum similique veniam tempore unde?</p>
+                            <a href="states/karnataka/how-to-plan-a-super-budget-trip-to-mysore/index.html" class="btn explore_btn"> explore &nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+
+                        <div class="popular_blogs">
+
+                            <h2>Popular Post</h2>
+
+                            <div class="blog_content">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/delhi/red_fort.jpg" alt="blog1">
+                                </div>
+                                <a href="coming_soon.html"> A weekend trip to Delhi </a>
+                            </div>
+
+                            <div class="blog_content">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/deojhar/naulakha_temple.jpg" alt="blog1">
+                                </div>
+                                <a href="coming_soon.html"> Deoghar Travel Guid: A Trip to the holy city beside the Mayurakshi River </a>
+                            </div>
+
+                            <div class="blog_content">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/dooars/dooars.jpg" alt="blog1">
+                                </div>
+                                <a href="coming_soon.html"> Kalimpong Dooars Bhutan Complete travel guide for 4 nights 5 days </a>
+                            </div>
+
+                            <div class="blog_content">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/balasore/balasore.jpg" alt="blog1">
+                                </div>
+                                <a href="coming_soon.html"> Simlipal, Chandipur, Panchalingeswar Detailed day by day travel guide </a>
+                            </div>
+
+                            <div class="blog_content">
+                                <div class="overflow-hidden">
+                                    <img src="./assets/bakkhali/bakkhali_beach.JPG" alt="blog1">
+                                </div>
+                                <a href="coming_soon.html"> Explore Bakkhali: A perfect beach holiday </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <h2> Top blogs </h2>
+                        <a href="states/himachal/how-to-plan-a-trip-to-shimla/index.html" class="text-shadow"> Trip to Shimla: Detailed day by day itinerary </a>
+                        <a href="states/karnataka/how-to-plan-a-super-budget-trip-to-mysore/index.html" class="text-shadow"> How to plan a super budget trip to Mysore </a>
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <h2> Quick links </h2>
+                        <a href="about.html" class="text-shadow"> About me </a>
+                        <a href="contant.html" class="text-shadow"> Contact me </a>
+                        <a href="terms-and-conditions.html" class="text-shadow"> Terms of Use </a>
+                        <a href="privacy-policy.html" class="text-shadow"> Privacy Policy </a>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <h2> Follow Us </h2>
+
+                        <div class="social_links">
+
+                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#"> <i class="fab fa-instagram"></i> </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p> &copy; All Rights Reserved. Travel Bong.</p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
