@@ -2,6 +2,7 @@
     background-color: var(--color-grey);
     padding: 12px 20px;
     border-radius: 4px;
+    box-shadow: 0 5px 6px -6px #777;
 }
 
 .step_progrss_bar p {
@@ -32,10 +33,11 @@
     object-fit: cover;
     margin-top: 50px;
     border-radius: 4px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 .single-blog .content h6 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .single-blog .content b {
@@ -49,6 +51,7 @@
     padding: 20px 20px;
     margin-bottom: 45px;
     border-radius: 5px;
+    box-shadow: 0 8px 6px -6px #777;
 }
 
 .our-quick-links h1 {
@@ -56,6 +59,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 25px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .our-quick-links p {
@@ -72,6 +76,7 @@
 .blog-section h2 {
     font-size: 2.1rem;
     color: var(--color-deep-green);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .blog-section h4 {
@@ -104,6 +109,7 @@
  background-color: var(--color-grey);
  margin-bottom: 28px;
  border-radius: 4px;
+ box-shadow: 0 8px 6px -6px #777;
 }
 
 .small-banner h2 {
@@ -115,8 +121,33 @@
 }
 
 .sub-list li{
-
     list-style: disc !important;
     padding-left: 35px !important;
+}
 
+.single-blog-img-container {
+    border: 1px solid #f0f0f0;
+    margin-top: 35px !important;
+    margin-bottom: 38px !important;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.single-blog-img {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: none !important;
+}
+
+.single-blog-img-title {
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
 }

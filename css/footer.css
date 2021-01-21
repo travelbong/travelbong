@@ -40,9 +40,9 @@ footer .social_links a {
 
 footer .social_links .fab {
     padding: 20px;
-    font-size: 14px;
-    height: 40px;
-    width: 40px;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -52,18 +52,30 @@ footer .social_links .fab {
     align-items: center;
     transition: 0.5s ease-out;
     background-color: #fff;
-    color: var(--colo-sky-blue);
+}
+
+footer .social_links .fa-facebook-square {
+    color: #3b5998;
+}
+
+footer .social_links .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .social_links .instagram-outer-box {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
 }
 
 footer .social_links .fab:hover {
-    color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-footer .social_links .fa-facebook-f:hover {
-    background-color: var(--color-facebook-blue);
-}
-
-footer .social_links .fa-instagram:hover {
-    background-color: var(--color-instagram);
 }

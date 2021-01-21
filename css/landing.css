@@ -13,16 +13,19 @@
 }
 
 .blogs .blog_single h1 {
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    letter-spacing: 0.5px;
     font-size: 1.5rem;
     color: var(--color-gray);
     font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-bottom: 20px;
 }
 
 .blogs .blog_single p {
     color: var(--color-light-gray);
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 /********************** landing page main post end's ***********************/

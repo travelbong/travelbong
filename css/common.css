@@ -83,3 +83,15 @@ a:hover {
 .text-shadow {
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
+
+.text-shadow-none {
+    text-shadow: none !important;
+}
+
+.min-height-500 {
+    min-height: 500px;
+}
+
+.min-height-700 {
+    min-height: 700px;
+}
