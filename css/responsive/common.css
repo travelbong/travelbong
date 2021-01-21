@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) { 
+
+    footer .mobile-mt-30 {
+        margin-top: 30px;
+        margin-bottom: 12px !important;
+    }
+
+}
+
+@media only screen and (max-width: 575px) { 
+
+    .explore-all .card {
+        max-width: 100%;
+    }
+
+    .explore-all .card-img-top {
+        height: auto;
+        max-width: 100%;
+    }
+
+}
