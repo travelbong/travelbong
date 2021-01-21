@@ -43,6 +43,7 @@
     font-size: 1.4rem;
     color: #000;
     font-weight: 400;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .state-all-blog-listing .listing p {
