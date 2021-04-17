@@ -101,3 +101,7 @@ a:hover {
     margin-left: 40px;
     font-weight: 600;
 }
+
+.pl-6 {
+    padding-left: 4rem !important;
+}
